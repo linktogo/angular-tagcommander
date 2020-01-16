@@ -5,8 +5,6 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {NgxTagCommanderModule, TagCommanderService, WindowRef} from 'ngx-tag-commander';
 import {HttpClientModule} from '@angular/common/http';
-import {NxHeaderModule} from '@allianz/ngx-ndbx/header';
-import {NxButtonModule, NxLinkModule} from '@allianz/ngx-ndbx';
 
 @NgModule({
   declarations: [
